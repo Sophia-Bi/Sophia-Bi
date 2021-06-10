@@ -40,11 +40,10 @@
         createCollectable(type.kennedi, 10, 350);
         createCollectable(type.max, 855, 617,);
         createCollectable(type.db, 350, 440, 50, 0.7);
-        createCollectable(type.grace, 500, 170, 100, 0.7);
-        createCollectable(type.db, 700, 170, 20, 0.7);
-
-        createCollectable(type.steve, 300,300 );
-        
+        createCollectable(type.max, 500, 170, 100, 0.7);
+        createCollectable(type.db, 855, 260);
+        createCollectable(type.steve, 300,300);
+        createCollectable(type.steve, 130, 14)
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
