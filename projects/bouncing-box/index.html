@@ -6,15 +6,16 @@
 	<script src="jquery.min.js"></script>
 	<style>
 		body {
-			background-image: url("https://pngimg.com/uploads/bee/bee_PNG74690.png");
-			background-color: #cccccc
+			background-image: url("https://buzzworthy.s3.amazonaws.com/wp-content/uploads/2017/06/aXm6588xjU.jpg");
+		
 		}
 		.box {
-			width: 70px;
-			height: 70px;
-			background-color: rgb(209, 183, 243);
-			font-size: 300%;
+			width: 166px;
+			height: 166px;
+			background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcRrYTvP3Yw5_aP168Bg9E6azurjnk6cCp0g&usqp=CAU");
+			font-size: 900%;
 			text-align: center;
+			
 			display: block;
 			position: absolute;
 			top: 100px;
@@ -43,6 +44,7 @@
 			var box = jQuery('.box');	// reference to the HTML .box element
 			var board = jQuery('.board');	// reference to the HTML .board element
 			var boardWidth = board.width();	// the maximum X-Coordinate of the screen
+			
 
 			// Every 50 milliseconds, call the update Function (see below)
 			setInterval(update, 50);
@@ -68,6 +70,9 @@
 			var positionX = 0;
 			var points = 0;
 			var speed = 10;
+
+			var positionY;
+            var speedY;
 
 			
 			/* 
